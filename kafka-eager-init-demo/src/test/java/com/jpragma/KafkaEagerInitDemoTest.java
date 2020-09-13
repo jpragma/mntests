@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 
 import javax.inject.Inject;
 
-@MicronautTest
+@MicronautTest(contextBuilder = TestEagerInitApplicationContextBuilder.class)
 public class KafkaEagerInitDemoTest {
 
     @Inject
