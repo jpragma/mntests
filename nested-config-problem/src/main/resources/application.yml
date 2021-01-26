@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: mapFormatPropsProblem
+
+foo:
+  bar: baz
